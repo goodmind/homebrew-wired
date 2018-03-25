@@ -6,7 +6,7 @@ class Infornography < Formula
   sha256 "f25046a10936bbf7ce812718d9098555ce0d0a2ee7a344808c9d9d00349f7656"
 
   def install
-    bin.install "bin/infornography"
+    bin.install "infornography"
     # lib.install Dir["lib/*"]
   end
 
